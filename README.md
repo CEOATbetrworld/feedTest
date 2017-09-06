@@ -4,7 +4,7 @@ Project is to develop testing skills which are really crucial to learn if you wa
 
 # Testing Framework Used:
 
-## Jasmine (JavaScript testing framework)
+## [Jasmine (JavaScript testing framework)](https://jasmine.github.io/)
 
 # Steps to run application
 
