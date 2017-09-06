@@ -1,8 +1,10 @@
 # Front-End Web Development best practices : Testing
 
-Project is to develop testing skills which are really crucial to learn if you want to be a competetive developer 
+Project is to develop testing skills which are really crucial to learn if you want to be a competetive developer. 
 
-# Used Jasmine (JavaScript testing framework)
+# Testing Framework Used:
+
+## Jasmine (JavaScript testing framework)
 
 # Steps to run application
 
