@@ -14,11 +14,11 @@ $(function() {
          * and that the URL is not empty.
          */
 
-        it("All URL  present, defined and are strings", function() {
+        it('All URL  present, defined and are strings', function() {
             for (let feed of allFeeds) {
                 expect(feed.url).toBeDefined();
-                expect(feed.url.length).not.toBe(0);
                 expect(typeof feed.url).toBe('string');
+                expect(feed.url.length).not.toBe(0); 
             }
         });
 
@@ -63,7 +63,7 @@ $(function() {
 
     });
 
-    /* TODO: Write a new test suite named "Initial Entries" */
+    /* A test suite named "Initial Entries" */
     describe('Initial Entries', function() {
 
         /* A test that ensures when the loadFeed
@@ -79,7 +79,7 @@ $(function() {
         });
 
         it('Atleast a single element is in the feed container', function() {
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
 
         });
 
